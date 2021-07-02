@@ -1,0 +1,63 @@
+@media screen and (max-width: 1280px){
+	#wrapper{
+		width: 80%;
+	}
+	#header li, a{
+		padding: 3px;
+		font-size: 13px;
+	}
+	#header form{
+		margin-top: -50px;
+	}
+	#daftar-artike{
+		width: 100%;
+	}
+	.artikel img{
+		margin-right: 50px;
+        width: 70%;
+        height: 120px;
+	}
+
+@media screen and (max-width: 380){
+    #wrapper{
+		width: 75%;
+	}
+	#header li, a{
+		padding: 3px;
+		font-size: 14px;
+	}
+    #header img{
+        width: 70%;
+        height: 120px;
+    }
+	#header form{
+		margin-top: -50px;
+	}
+	#daftar-artike{
+		width: 60%;
+    }
+	.artikel img{
+		margin-right: 9px;
+        width:20%;
+        height: 50px;
+	}
+    .artikel b{
+        font-size: 5px;
+    }
+    .artikel p{
+        margin:10px 0;
+        font-size: 12px;
+    }
+    #header img{
+        height: 15px;
+        width: auto;
+        margin: inherit 10px;
+    }
+    #sidebar h2{
+        font-size:10px;
+    }
+    #sidebar p{
+        line-height:15px;
+        font-size: 10px;
+    }
+}
